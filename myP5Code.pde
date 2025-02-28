@@ -17,10 +17,24 @@ draw = function(){
     text("MESSAGE", 159, 229); 
   }
   
+  HELP
+  
+if (theNumber > 0) { rect(5, 60, 200, 40);
+}
+if (theNumber < 0) { rect (5,110,200,40);
+}
+if (theNumber == 0) { rect (5,160, 200, 40);
+}
 };
+  
+  
+  HELP
+if(mousePressed){
+text("future", random(0,600), random(0,400));
+};
+
 
 mouseClicked = function(){
   answer = round(random(1, 5));
 };
-
 
