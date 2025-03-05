@@ -9,7 +9,6 @@ body {
   color: navy;
   margin: auto;
   
-
 }
 
   h1 {
@@ -21,7 +20,7 @@ color: rgb(88, 24, 69);
   border-radius: 30px;
   border: 5px solid white;
 }
-
-
-
+p {color: rgb(6089,28, 91); }
  
+  .random 
+  {background-color: rgb(255,78,78);   
