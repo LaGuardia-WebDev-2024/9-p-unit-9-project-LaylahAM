@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
+  background-color: black;
+  text-align: center;
+  color: navy;
+  margin: auto;
+  
 }
 
-h1{
-  font-size: 30px;
-  color: white;
-}
+  h1 {
+color: rgb(88, 24, 69);
+  }
 
 #myCanvas {
   background-size: 600px 400px;
   border-radius: 30px;
   border: 5px solid white;
 }
-
-
-
+p {color: rgb(6089,28, 91); }
+ 
+  .random 
+  {background-color: rgb(255,78,78);   
