@@ -14,15 +14,7 @@ draw = function(){
 
 
 //HELPPPP
-  fill(0, 255,68);   
-  if(mousePressed && mouseY < 200){   
-  fill(255,0,68); }  
-  rect(0,0,400,200);    
-  fill(0,0,0);  
-  textSize(30):      
-  text("Press me!", 145,110, 200)
-  };
-  
+
   
   drawFish(200, 200, color(200,0,200)); 
     drawFish(300, 200, color(0,200,200));
@@ -33,8 +25,18 @@ draw = function(){
       drawLobster(290, 200, color(200,0,200)); 
       drawBubble(250, 150, color(200,0,200)); 
       drawLobster(230, 200, color(200,0,200)); 
-  
-  
+
+
+  //help
+
+ 
+
+  fill(0, 255, 68); 
+  if (mousePressed &&	 mouseY < 200) {
+  fill(255, 0, 68);
+  rect(0, 0, 400, 200); 
+  fill(0, 0, 0);  textSize(30);
+  ("Press me!", 145, 110);  }
   
   
   fill(0, 0, 0);
